@@ -1,10 +1,8 @@
 ---
 layout: page
 title: WarriorTanking.md
-subtitle: Getting Started
 menubar: docs_menu
 show_sidebar: false
-toc: true
 ---
 
 # Warrior Tanking Guide
