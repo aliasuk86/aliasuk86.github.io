@@ -6,7 +6,7 @@ description: An example recipe page
 author: CS Rhymes
 date: 2021-03-02
 show_sidebar: false
-image: /bulma-clan-theme/img/recipe-example.jpg
+image: /bulma-clan-theme/img/bulma-clean-theme-4by3.jpg
 hero_image: /bulma-clean-theme/img/recipe-example.jpg
 hero_darken: true
 ingredients:
