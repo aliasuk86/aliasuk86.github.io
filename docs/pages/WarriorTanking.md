@@ -1,11 +1,10 @@
 ---
 layout: page
 title: Warrior Tanking
-subtitle: Testing Warrior Tanking
+subtitle: Pages
 menubar: docs_menu
+toc: true
 show_sidebar: false
-redirect_from:
-    - /page-with-contents/
 ---
 
 # Warrior Tanking Guide
