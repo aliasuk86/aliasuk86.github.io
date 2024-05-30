@@ -13,10 +13,10 @@
     - name: Scripts
       link: /docs/getting-started/scripts/
 
-- label: Warrior Tanking
+- label: Tanking
   items:
-    - name: Tank Warrior
-      link: /docs/warriortank/tankwarrior/
+    - name: Tank
+      link: /docs/tank/warrior/
 
 
 - label: Navigation

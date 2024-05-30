@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Warrior Tanking
+title: Tank
 subtitle: Getting Started
 menubar: docs_menu
 toc: true
