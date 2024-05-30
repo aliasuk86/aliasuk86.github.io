@@ -1,3 +1,13 @@
+---
+layout: page
+title: Warrior Tanking
+subtitle: Testing Warrior Tanking
+menubar: docs_menu
+show_sidebar: false
+redirect_from:
+    - /page-with-contents/
+---
+
 # Warrior Tanking Guide
 
 This guide provides an overview of tanking in Classic WoW and serves as a valuable reference. Whether you’re a seasoned warrior or new to tanking, you’ll find essential information here. 
