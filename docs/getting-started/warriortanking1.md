@@ -1,7 +1,9 @@
 ---
 layout: page
-title: WarriorTanking.md
+title: Warrior Tanking
+subtitle: Getting Started
 menubar: docs_menu
+toc: true
 show_sidebar: false
 ---
 
