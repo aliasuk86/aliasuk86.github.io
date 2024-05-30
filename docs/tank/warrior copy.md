@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Tank
-subtitle: tank
+subtitle: Getting Started
 menubar: docs_menu
-show_sidebar: false
 toc: true
+show_sidebar: false
 ---
 
 # Warrior Tanking Guide
