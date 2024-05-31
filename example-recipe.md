@@ -1,14 +1,15 @@
 ---
 layout: recipe
-title: An Example Recipe Page
-subtitle: Tastes great and easy to cook
+title: Wow Classic Era - Phase 7
+subtitle: Tank Class Guide & Info
 description: An example recipe page
 author: CS Rhymes
 date: 2021-03-02
 show_sidebar: false
-image: /bulma-clan-theme/img/bulma-clean-theme-4by3.jpg
-hero_image: /bulma-clean-theme/img/recipe-example.jpg
-hero_darken: true
+image: /bulma-clan-theme/img/wow1.jpg
+hero_image: /bulma-clean-theme/img/wow1.jpg
+hero_height: is-fullheight
+#hero_darken: false
 ingredients:
     - 1tsp vegetable oil
     - 2 Carrots, finely diced
@@ -57,8 +58,8 @@ subtitle: Tastes great and easy to cook
 author: CS Rhymes
 date: 2021-03-02
 show_sidebar: false
-image: /bulma-clan-theme/img/recipe-example.jpg
-hero_image: /bulma-clean-theme/img/recipe-example.jpg
+#image: \img\bulma-clean-theme-4by3.jpg
+#hero_image: \img\bulma-clean-theme-4by3.jpg
 ingredients:
     - 1tsp vegetable oil
     - 2 Carrots, finely diced
