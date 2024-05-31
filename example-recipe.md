@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Wow Classic Era - Phase 7
-subtitle: Tank Class Guide & Info
+subtitle: Tank Class Guide & Info by alias
 description: An example recipe page
 author: CS Rhymes
 date: 2021-03-02
