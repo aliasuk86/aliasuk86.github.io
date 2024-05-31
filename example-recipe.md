@@ -7,7 +7,7 @@ author: CS Rhymes
 date: 2021-03-02
 show_sidebar: false
 image: /img/wow1.jpg
-hero_image: /bulma-clean-theme/img/wow1.jpg
+hero_image: /img/wow1.jpg
 hero_height: is-fullheight
 #hero_darken: false
 ingredients:
