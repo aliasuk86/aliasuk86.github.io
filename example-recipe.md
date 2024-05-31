@@ -6,8 +6,8 @@ description: An example recipe page
 author: CS Rhymes
 date: 2021-03-02
 show_sidebar: false
-image: /img/wow1.jpg
-hero_image: /img/wow1.jpg
+image: /img/wow3.jpg
+hero_image: /img/wow3.jpg
 hero_height: is-fullheight
 #hero_darken: false
 ingredients:
