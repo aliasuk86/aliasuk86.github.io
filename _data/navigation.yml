@@ -1,19 +1,16 @@
-- name: Docs1
-  link: /docs/
-- name: Example Pages1
+- name: Guides
   link: /#
   dropdown:
-    - name: Landing Page With Callouts
-      link: /landing/
-    - name: Sponsors Page
+    - name: Warrior Class Guide
+      link: /WarriorClassGuide/warrior/
+- name: Docs
+  link: /#
+  dropdown:
+    - name: Warrior Class Guide
+      link: /docs/tank/warrior/
+    - name: Firemaw Server Info
       link: /sponsors/
-    - name: Image Gallery
+    - name: Wow UI - Modern Look
       link: /gallery/
-    - name: Products
-      link: /products/
-    - name: Recipe Page
-      link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
-- name: Blog
-  link: /blog/
+- name: Fan Art
+  link: /gallery/

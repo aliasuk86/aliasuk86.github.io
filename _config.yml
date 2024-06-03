@@ -1,6 +1,6 @@
 # Site Settings
 lang: en
-title: WoW Classic Era - Firemaw
+title: WoW Classic Era Firemaw Cluster
 tagline: Bulma Clean Theme
 email: your-email@domain.com
 description: >
@@ -68,7 +68,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "C.S. Rhymes"
+      author: "C.S. RR"
       layout: post
       image: https://via.placeholder.com/1200x800
       show_sidebar: true

@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Blog
-  link: /blog/
+- name: Firemaw Server Discord
+  link: https://discord.gg/4cCSBz89GM
 - name: Products
   link: /products/
 - name: Privacy Policy

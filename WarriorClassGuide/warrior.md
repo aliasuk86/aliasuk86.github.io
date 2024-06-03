@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Tank
+title: tank
 subtitle: tank
-menubar: docs_menu
+menubar: warrior_menu
 show_sidebar: false
 toc: true
 ---
