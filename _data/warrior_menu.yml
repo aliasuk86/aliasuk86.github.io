@@ -1,8 +1,8 @@
 - label: warriorclassguide
   items:
-    - name: Tank1
+    - name: Introduction
       link: /warriorclassguide/Warrior/
-    - name: warrior_Prep
-      link: /warriorclassguide/warrior_prep/
-    - name: warrior_Prep
+    - name: Prepation
+      link: /warriorclassguide/warrior_preparation/
+    - name: Talents Builds
       link: /warriorclassguide/warrior_talents/

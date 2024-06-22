@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Warrior
-subtitle: Prep
+subtitle: Preparation
 menubar: warrior_menu
+hero_height: is-small
 show_sidebar: false
 toc: true
 ---

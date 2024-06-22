@@ -1,8 +1,10 @@
 ---
 layout: page
 title: Warrior
-subtitle: talents
+subtitle: Talents
 menubar: warrior_menu
+hero_image: /img/wow3.jpg
+hero_height: is-small
 show_sidebar: false
 toc: true
 ---

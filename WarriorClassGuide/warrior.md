@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Warrior
-subtitle: Warrior
+title: Warrior Intro
 menubar: warrior_menu
 show_sidebar: false
 toc: true
