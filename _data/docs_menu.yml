@@ -15,8 +15,12 @@
 
 - label: Tanking
   items:
-    - name: Tank
+    - name: Tank1
       link: /docs/tank/warrior/
+    - name: warrior_Prep
+      link: /docs/tank/warrior_Prep/
+    - name: warrior_Prep
+      link: /docs/tank/warrior_Talants/
 
 - label: Navigation
   items:

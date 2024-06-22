@@ -1,7 +1,7 @@
 ---
 layout: page
-title: tank
-subtitle: tank1
+title: Warrior
+subtitle: Prep
 menubar: warrior_menu
 show_sidebar: false
 toc: true

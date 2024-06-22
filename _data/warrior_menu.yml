@@ -1,4 +1,8 @@
-- label: Tanking
+- label: warriorclassguide
   items:
-    - name: Tank
-      link: /WarriorClassGuide/warrior/
+    - name: Tank1
+      link: /warriorclassguide/Warrior/
+    - name: warrior_Prep
+      link: /warriorclassguide/warrior_prep/
+    - name: warrior_Prep
+      link: /warriorclassguide/warrior_talents/
