@@ -14,10 +14,12 @@
             background-color: #191919; /* Matching Notion's dark mode */
             color: #fff;
             font-family: Arial, sans-serif;
+            flex-direction: column; /* Stack the rows vertically */
         }
         .icon-container {
             display: flex;
             gap: 20px;
+            margin-bottom: 20px; /* Space between rows */
         }
         .icon-link {
             text-decoration: none;
@@ -31,21 +33,27 @@
             transition: transform 0.3s ease;
             object-fit: cover; /* Ensures consistent scaling */
         }
-        /* Apply gold border and circle only to warrior icon, keeping size consistent */
         .warrior-icon {
             border-radius: 50%;
             border: 3px solid #FFD700; /* Gold border */
             background-color: #FFD700; /* Gold circle background */
-            width: 40px; /* Ensure size stays the same as others */
-            height: 40px; /* Ensure size stays the same as others */
-            box-sizing: border-box; /* Ensure border does not affect the size */
+            width: 40px;
+            height: 40px;
+            box-sizing: border-box;
         }
         .warrior-icon:hover {
-            transform: scale(1.1); /* Smooth zoom effect */
+            transform: scale(1.1);
         }
-        /* Hover effect for all icons (grow larger on hover) */
         .icon-link:hover img {
             transform: scale(1.3); /* Increase size on hover */
+        }
+        /* Smaller icons for second row */
+        .icon-container-smaller img {
+            width: 30px;
+            height: 30px;
+        }
+        .icon-container-smaller .icon-link:hover img {
+            transform: scale(1.2); /* Slightly smaller zoom effect */
         }
     </style>
 </head>
@@ -62,6 +70,16 @@
         </a>
         <a href="https://www.notion.so/World-of-Warcraft-14fcbfa0aae680c5badfe68f444a906a" class="icon-link" target="_blank">
             <img src="https://aliasuk86.github.io/notion/personal/wow_classic_icon.svg" alt="World of Warcraft Icon">
+        </a>
+    </div>
+
+    <!-- Second row of smaller icons -->
+    <div class="icon-container icon-container-smaller">
+        <a href="https://servicedesk.nexsphere.co.uk/" class="icon-link" target="_blank">
+            <img src="https://aliasuk86.github.io/notion/work/communityIcon_3bxauiprukg71.png" alt="Community Icon">
+        </a>
+        <a href="https://seetec2-amc.ivanticloud.com/Default.aspx" class="icon-link" target="_blank">
+            <img src="https://aliasuk86.github.io/notion/work/ivanti.svg" alt="Ivanti Icon">
         </a>
     </div>
 </body>
