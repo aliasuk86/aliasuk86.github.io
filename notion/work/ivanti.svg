@@ -1,86 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notion Quick Links</title>
-    <style>
-        html, body {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #191919; /* Matching Notion's dark mode */
-            color: #fff;
-            font-family: Arial, sans-serif;
-            flex-direction: column; /* Stack the rows vertically */
-        }
-        .icon-container {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 20px; /* Space between rows */
-        }
-        .icon-link {
-            text-decoration: none;
-            text-align: center;
-            display: inline-block;
-            transition: transform 0.3s ease; /* Smooth zoom for all icons */
-        }
-        .icon-link img {
-            width: 40px;
-            height: 40px;
-            transition: transform 0.3s ease;
-            object-fit: cover; /* Ensures consistent scaling */
-        }
-        .warrior-icon {
-            border-radius: 50%;
-            border: 3px solid #FFD700; /* Gold border */
-            background-color: #FFD700; /* Gold circle background */
-            width: 40px;
-            height: 40px;
-            box-sizing: border-box;
-        }
-        .warrior-icon:hover {
-            transform: scale(1.1);
-        }
-        .icon-link:hover img {
-            transform: scale(1.3); /* Increase size on hover */
-        }
-        /* Smaller icons for second row */
-        .icon-container-smaller img {
-            width: 30px;
-            height: 30px;
-        }
-        .icon-container-smaller .icon-link:hover img {
-            transform: scale(1.2); /* Slightly smaller zoom effect */
-        }
-    </style>
-</head>
-<body>
-    <div class="icon-container">
-        <a href="https://www.notion.so/152cbfa0aae6808397f5e693019f5aaa?v=d1100dfe09e949e6bb14eff68dda3dbb" class="icon-link" target="_blank">
-            <img src="https://aliasuk86.github.io/notion/personal/Blue_circle_for_diabetes.svg" alt="Diabetes Icon">
-        </a>
-        <a href="https://www.notion.so/14fcbfa0aae680b3b32bf7fc0347da42?v=14fcbfa0aae681fa994f000c32e45bcf" class="icon-link" target="_blank">
-            <img src="https://aliasuk86.github.io/notion/personal/raids.png" alt="Raids Icon">
-        </a>
-        <a href="https://www.notion.so/14fcbfa0aae680ce94cae2571afb0369?v=3769a2e789b04b24a20aa6d15c71ae76" class="icon-link" target="_blank">
-            <img src="https://aliasuk86.github.io/notion/personal/class_warrior.jpg" alt="Warrior Class Icon" class="warrior-icon">
-        </a>
-        <a href="https://www.notion.so/World-of-Warcraft-14fcbfa0aae680c5badfe68f444a906a" class="icon-link" target="_blank">
-            <img src="https://aliasuk86.github.io/notion/personal/wow_classic_icon.svg" alt="World of Warcraft Icon">
-        </a>
-    </div>
-
-    <!-- Second row of smaller icons -->
-    <div class="icon-container icon-container-smaller">
-        <a href="https://servicedesk.nexsphere.co.uk/" class="icon-link" target="_blank">
-            <img src="https://aliasuk86.github.io/notion/work/communityIcon_3bxauiprukg71.png" alt="Community Icon">
-        </a>
-        <a href="https://seetec2-amc.ivanticloud.com/Default.aspx" class="icon-link" target="_blank">
-            <img src="https://aliasuk86.github.io/notion/work/ivanti.svg" alt="Ivanti Icon">
-        </a>
-    </div>
-</body>
-</html>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DA291C;}
+	.st1{fill:#28E4C3;}
+	.st2{fill:#FFFFFF;}
+</style>
+<circle class="st0" cx="256" cy="256" r="245.5"/>
+<g>
+	<g>
+		<path class="st1" d="M304.7,405.6"/>
+	</g>
+</g>
+<g>
+	<g>
+		<path class="st1" d="M305.8,353"/>
+	</g>
+</g>
+<g>
+	<polygon class="st2" points="283.1,228.9 283.1,391 391,391 391,121 121,121 121,228.9  "/>
+	<rect x="121" y="283.1" class="st2" width="107.9" height="107.9"/>
+</g>
+</svg>
