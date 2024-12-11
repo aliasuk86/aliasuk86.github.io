@@ -30,8 +30,13 @@
         .icon-link img {
             width: 40px;
             height: 40px;
+            max-width: none; /* Prevent max-width restrictions */
+            max-height: none; /* Prevent max-height restrictions */
+            flex-grow: 0; /* Prevents icon size from shrinking */
+            flex-shrink: 0; /* Prevents icon size from shrinking */
             transition: transform 0.3s ease;
             object-fit: cover; /* Ensures consistent scaling */
+            box-sizing: border-box; /* Ensures padding and borders don't affect size */
         }
         .warrior-icon {
             border-radius: 50%;
