@@ -1,0 +1,27 @@
+name: Deploy Notion Form
+
+on:
+  push:
+    branches:
+      - main  # Adjust if your branch is not 'main'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Inject Notion Secrets
+      run: |
+        echo "export const config = {" > ./notion/config.js
+        echo "  NOTION_TOKEN: '${{ secrets.NOTION_TOKEN }}'," >> ./notion/config.js
+        echo "  DATABASE_ID: '${{ secrets.DATABASE_ID }}'" >> ./notion/config.js
+        echo "};" >> ./notion/config.js
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./  # Deploy the whole project, including /notion

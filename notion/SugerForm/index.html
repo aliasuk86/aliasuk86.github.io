@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion Insulin Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Insulin Tracker</h1>
+    <form id="notionForm">
+        <label for="xdrip">Xdrip:</label>
+        <input type="number" id="xdrip" name="xdrip" step="0.1" required><br>
+
+        <label for="iob">IOB:</label>
+        <input type="number" id="iob" name="iob" step="0.1" required><br>
+
+        <label for="insulin">Insulin:</label>
+        <input type="number" id="insulin" name="insulin" required><br>
+
+        <label for="status">Status:</label>
+        <input type="number" id="status" name="status" step="0.1" required><br>
+
+        <label for="food">Food:</label>
+        <input type="text" id="food" name="food" placeholder="Food item" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
