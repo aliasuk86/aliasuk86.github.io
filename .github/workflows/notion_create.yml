@@ -26,6 +26,6 @@ jobs:
 
     - name: Create task in Notion
       run: |
-        python sync_notion.py
+        python notion/Automation/sync_notion.py
       env:
         NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
