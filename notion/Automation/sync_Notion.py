@@ -18,13 +18,13 @@ headers = {
 # Function to create a task in Notion
 def create_notion_task(task_name, task_description):
     data = {
-        "parent": { "database_id": DATABASE_ID },
+        "parent": { "database_id": 151cbfa0aae680d09bf2ceeee39959b1 },
         "properties": {
             "Title": {
                 "title": [
                     {
                         "text": {
-                            "content": task_name
+                            "content": test
                         }
                     }
                 ]
