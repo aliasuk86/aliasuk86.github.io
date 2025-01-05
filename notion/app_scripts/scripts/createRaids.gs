@@ -1,10 +1,3 @@
-// Secrets (replace with actual values)
-const NOTION_API_KEY = "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";
-const DATABASE_REFERENCES = {
-  TASKS: "151cbfa0aae680d09bf2ceeee39959b1", // Tasks database ID
-  WOW: "14fcbfa0aae680b3b32bf7fc0347da42"   // WoW database ID
-};
-
 // Raid schedule (times are in server time, adjust to your time zone if needed)
 const raidSchedule = {
   "Naxx 7pm": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
