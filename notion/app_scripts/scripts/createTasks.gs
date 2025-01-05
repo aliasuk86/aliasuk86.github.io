@@ -26,6 +26,8 @@ function addTasksToNotion() {
   ];
 
   const today = new Date();
+  let tasksCreated = []; // Track created tasks for notification
+
   for (let i = 0; i < 5; i++) { // Current week + 4 weeks
     const weekStartDate = new Date();
     weekStartDate.setDate(today.getDate() + i * 7);
@@ -42,6 +44,7 @@ function addTasksToNotion() {
               databaseId,
               apiKey
             );
+            tasksCreated.push(`${task.name} (${day}) on ${taskDate.toDateString()}`);
           }
         });
       } else if (task.details) {
@@ -55,11 +58,15 @@ function addTasksToNotion() {
               databaseId,
               apiKey
             );
+            tasksCreated.push(`${task.name} (${detail.type}) on ${taskDate.toDateString()}`);
           }
         });
       }
     });
   }
+
+  // Create a notification in Notion with the summary of created tasks
+  createNotification(tasksCreated, databaseId, apiKey);
 }
 
 function createTask(taskName, notes, taskDate, databaseId, apiKey) {
@@ -100,6 +107,50 @@ function createTask(taskName, notes, taskDate, databaseId, apiKey) {
 
   const response = UrlFetchApp.fetch("https://api.notion.com/v1/pages", options);
   Logger.log(`Task Created: ${taskName}`);
+}
+
+function createNotification(tasksCreated, databaseId, apiKey) {
+  const notificationContent = tasksCreated.length
+    ? `Tasks Created:\n- ${tasksCreated.join('\n- ')}`
+    : "No tasks were created during this run.";
+
+  const payload = {
+    parent: { database_id: databaseId },
+    properties: {
+      Name: {
+        title: [
+          {
+            text: { content: "Task Creation Summary" }
+          }
+        ]
+      },
+      Notes: {
+        rich_text: [
+          {
+            text: { content: notificationContent }
+          }
+        ]
+      },
+      Date: {
+        date: {
+          start: new Date().toISOString()
+        }
+      }
+    }
+  };
+
+  const options = {
+    method: "post",
+    contentType: "application/json",
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      "Notion-Version": "2022-06-28"
+    },
+    payload: JSON.stringify(payload)
+  };
+
+  const response = UrlFetchApp.fetch("https://api.notion.com/v1/pages", options);
+  Logger.log("Notification created in Notion.");
 }
 
 function getTaskDate(day, weekStartDate) {
